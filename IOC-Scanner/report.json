@@ -1,0 +1,15 @@
+{
+    "scanner": "SecureScripts IOC Scanner",
+    "files_with_findings": 1,
+    "results": [
+        {
+            "file": "test_files\\sample.txt",
+            "findings": [
+                [
+                    "DOMAIN",
+                    "malicious-example.test"
+                ]
+            ]
+        }
+    ]
+}

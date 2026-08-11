@@ -1,0 +1,14 @@
+{
+    "hashes": [
+        "44d88612fea8a8f36de82e1278abb02f"
+    ],
+    "ips": [
+        "192.0.2.10"
+    ],
+    "domains": [
+        "malicious-example.test"
+    ],
+    "urls": [
+        "https://malicious-example.test/payload"
+    ]
+}
