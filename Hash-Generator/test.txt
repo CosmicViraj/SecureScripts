@@ -1,0 +1,1 @@
+For security-related integrity checking, SHA-256 or SHA-512 should generally be preferred over MD5/SHA-1, which are considered unsuitable for modern cryptographic security.
