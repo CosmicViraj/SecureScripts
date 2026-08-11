@@ -1,0 +1,49 @@
+Delivered-To: victim@examplecorp.com
+Received: by 2002:a05:6602:2c8f:b0:7a2:1234:5678 with SMTP id abc123;
+        Mon, 11 Aug 2026 03:14:22 -0700 (PDT)
+Received: from mail-relay-unknown.ru (mail-relay-unknown.ru. [185.220.101.47])
+        by mx.google.com with ESMTPS id xyz789
+        for <victim@examplecorp.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256);
+        Mon, 11 Aug 2026 03:14:21 -0700 (PDT)
+Received-SPF: fail (google.com: domain of billing@paypal-secure-verify.com does not designate 185.220.101.47 as permitted sender) client-ip=185.220.101.47;
+Authentication-Results: mx.google.com;
+       dkim=fail (signature did not verify) header.i=@paypal-secure-verify.com;
+       spf=fail (google.com: domain of billing@paypal-secure-verify.com does not designate 185.220.101.47 as permitted sender) smtp.mailfrom=billing@paypal-secure-verify.com;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=paypal.com
+Return-Path: <bounce-8827@paypal-secure-verify.com>
+From: "PayPal Security Team" <service@paypal.com>
+Reply-To: paypal.support@paypal-secure-verify.com
+To: victim@examplecorp.com
+Subject: =?UTF-8?B?4pqg77iPIFVyZ2VudDogWW91ciBhY2NvdW50IHdpbGwgYmUgc3VzcGVuZGVk?=
+Date: Mon, 11 Aug 2026 06:14:18 -0400
+Message-ID: <a1b2c3d4e5f6@paypal-secure-verify.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [185.220.101.47]
+X-Mailer: PHPMailer 5.2.9 (https://github.com/PHPMailer/PHPMailer)
+X-Priority: 1 (Highest)
+
+<html>
+<body>
+<p>Dear Valued Customer,</p>
+
+<p><b>&#9888;&#65039; Urgent: Your account will be suspended within 24 hours.</b></p>
+
+<p>We have detected unusual activity on your PayPal account. To avoid
+permanent suspension, you must verify your identity immediately by
+clicking the link below:</p>
+
+<p><a href=3D"http://paypal-secure-verify.com.account-check.xyz/login?id=3D998271">
+Click here to verify your account</a></p>
+
+<p>Failure to verify within 24 hours will result in permanent account
+closure and loss of funds.</p>
+
+<p>Thank you,<br>
+PayPal Security Team</p>
+
+<img src=3D"http://paypal-secure-verify.com.account-check.xyz/track.gif?u=3D998271" width=3D"1" height=3D"1">
+</body>
+</html>
